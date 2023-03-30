@@ -1,0 +1,74 @@
+body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; }
+
+/* Header Style */ header { background-color: #00929e; color: #fff; padding: 5px; }
+
+nav { display: flex; justify-content: space-between; align-items: center; }
+
+nav ul { display: flex; list-style: none; }
+
+nav ul li { margin-left: 20px; }
+
+#logo{
+    width: 250px;
+    height: 150px;
+}
+
+nav ul li:first-of-type { margin-left: 0; }
+
+nav ul li a { color: #fff; text-decoration: none; }
+
+/* Call to Action Style */ .carousel-container { background-color: #eee; padding: 60px 30px; text-align: center; }
+
+.carousel-container h1 { font-size: 48px; margin-bottom: 15px; }
+
+.carousel-container h2 { font-size: 32px; margin-bottom: 30px; }
+
+.carousel { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 30px; }
+
+.carousel img { width: 30%; margin-bottom: 15px; }
+
+.button { background-color: #333; color: #fff; padding: 10px 30px; text-decoration: none; border-radius: 5px; }
+
+/* What is HPV Style */ .what-is-hpv { background-color: #fff; padding: 60px 30px; text-align: center; }
+
+.wrapper { max-width: 1200px; margin: 0 auto; }
+
+/* Get Vaccinated Style */ .get-vaccinated { background-color: #eee; padding: 60px 30px; text-align: center; }
+
+.border-box { border: 2px solid #333; padding: 20px; margin-bottom: 30px; }
+
+/* About Cervical Cancer Style */ .cervical-cancer { background-color: #fff; padding: 60px 30px; text-align: center; }
+
+.video { margin-bottom: 30px; }
+
+/* Meet the Team Style */ .meet-the-team { background-color: #eee; padding: 60px 30px; text-align: center; }
+
+.team { display: flex; overflow-x: scroll; margin-bottom: 30px; }
+
+.person { flex: 0 0 auto; margin-right: 20px; }
+
+.person:last-of-type { margin-right: 0; }
+
+.person img { width: 100%; margin-bottom: 10px; }
+
+/* Download Style */ .download { background-color: #fff; padding: 60px 30px; text-align: center; }
+
+.download a { background-color: #333; color: #fff; padding: 10px 30px; text-decoration: none; border-radius: 5px; }
+
+/* Enquiry Form Style */ .enquiry-form { background-color: #eee; padding: 60px 30px; text-align: center; }
+
+form { display: flex; flex-wrap: wrap; justify-content: center; }
+
+label { display: block; text-align: left; margin-bottom: 10px; max-width: 100%; }
+
+input, textarea { padding: 10px; margin-bottom: 20px; border-radius: 5px; border: none; width: 100%; }
+
+textarea { height: 200px; }
+
+button[type="submit"] { background-color: #333; color: #fff; padding: 10px 30px; text-decoration: none; border-radius: 5px; border: none; cursor: pointer; }
+
+button[type="submit"]:hover { background-color: #444; transition: all 0.3s ease; }
+
+/* Footer Style */ footer { background-color: #333; color: #fff; padding: 15px; }
+
+footer p { text-align: center; margin-bottom: 0; }
